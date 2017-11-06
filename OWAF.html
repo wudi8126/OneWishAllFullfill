@@ -1,50 +1,102 @@
-<div id="header">
-    <h1>众筹送礼解决方案</h1>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<div id="nav">
-    <a href="./signup.html">点我注册<br /></a>
-    <a href="./login.html">点我登录<br /></a>
-    <a href="http://www.taobao.com">马云还是你爸爸<br /></a>
-</div>
+    <title>Bootstrap Test 02</title>
 
-<div id="content">
-    <h1>你最近有特别想要的东西吗</h1>
-    <p>然而现实是自己是个穷鬼？</p>
-    <p>试一试众筹自己的生日礼物怎么样？</p>
-</div>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-<div id="footer">
-    Copyright 我，伍迪，打钱 1224692296@qq.com
-</div>
-</body>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project 穷</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right">
+            <!-- <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div> -->
+            <button type="submit" class="btn btn-success">登入</button>
+            <button type="submit" class="btn btn-success">注册</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>众筹送礼解决方案</h1>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>你最近有特别想要的东西吗</h2>
+          <p><a class="btn btn-default" href="#" role="button">没有，滚！ &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>然而现实是自己是个穷鬼</h2>
+          <p><a class="btn btn-default" href="#" role="button">穷逼也有尊严 &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>试一试众筹自己的生日礼物怎么样？</h2>
+          <p><a class="btn btn-default" href="#" role="button">卧槽给我来十份！ &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; 我，伍迪，打钱 1224692296@qq.com</p>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
 </html>
-
-<style>
-#header{
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 5px;
-}
-#nav{
-    line-height: 30px;
-    background-color: #eeeeee;
-    height:800px;
-    width: 100px;
-    float: left;
-    padding: 5px;
-}
-#content{
-    width: 500px;
-    float: left;
-    padding: 10px;
-}
-#footer{
-    background-color: black;
-    color: white;
-    clear:both;
-    text-align: center;
-    padding: 5px
-}
-</style>
